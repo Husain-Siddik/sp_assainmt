@@ -1,0 +1,21 @@
+//Write a C program to check whether a given number is odd or even using an if-else statement
+
+#include<stdio.h>
+int main()
+{
+     int a;
+     printf("Enter a number= ");
+     scanf("%d",&a);
+     
+     if(a % 2 == 0)
+        {
+                printf("The sum is Even\n");
+        }
+     else
+        {
+                 printf("The sum is Odd\n");
+        }
+return 0;
+}
+
+
